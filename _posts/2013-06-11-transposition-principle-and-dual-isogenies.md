@@ -1,3 +1,8 @@
+---
+layout: note
+tags: isogeny elliptic_curve transposition_principle pairing
+---
+
 Suppose you have a straight-line program to evaluate an isogeny
 $$\phi$$. How do you evaluate its dual $$\hat{\phi}$$ ?
 

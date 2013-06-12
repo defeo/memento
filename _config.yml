@@ -1,0 +1,4 @@
+baseurl: /memento
+permalink: /:categories/:title
+
+markdown: kramdown

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Memento. My research notes.">
+    <link rel="author" href="http://defeo.lu/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        config: ["MMLorHTML.js"],
+        jax: ["input/TeX","input/AsciiMath","output/HTML-CSS","output/NativeMML"],
+        extensions: ["MathMenu.js","MathZoom.js"],
+        TeX: {
+          extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+        }
+      });
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
